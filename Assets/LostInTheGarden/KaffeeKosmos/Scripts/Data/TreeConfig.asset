@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e70bf98d97d9f8478585e3c5018b120, type: 3}
+  m_Name: TreeConfig
+  m_EditorClassIdentifier: 
+  attachedGrowthScale: 0.103
+  secondTrunkDelay: 0.117
+  trunk: {fileID: 1048799755651710098, guid: 93949aff72b4ec64398862c95c77083f, type: 3}
+  trunk2: {fileID: 1089136272127592390, guid: ffa3ce99fd9d17b43ac220c751f6cb7d, type: 3}
+  trunk3: {fileID: 1089136272127592390, guid: 4dc6170a5008d3b44bf35ca7b017c0b5, type: 3}
+  trunk1BranchDirection: 183
+  trunk1BranchAngleOffset: {x: 17.708189, y: 54.51732}
+  trunk2BranchDirection: 323
+  trunk2BranchAngleOffset: {x: 19.034641, y: 71.09799}
+  trunk3BranchDirection: 0
+  trunk3BranchAngleOffset: {x: 0, y: 0}
+  trunkGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.70091164
+      value: 0.9908941
+      inSlope: 0.1561237
+      outSlope: 0.1561237
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.12562943
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  trunkLeafDeltaTimeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.01
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.40558007
+      value: 0.04791621
+      inSlope: 0.023879275
+      outSlope: 0.023879275
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.558493
+      outWeight: 0.16628371
+    - serializedVersion: 3
+      time: 1.0000534
+      value: 0.055850316
+      inSlope: 0.003537717
+      outSlope: 0.003537717
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17757246
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  trunkLeafYAxisVariation: 67.3
+  trunkLeafDestroyTime: 0.266
+  trunkBranchDelay: {x: 0, y: 0.01995292}
+  trunkBranchDeltaTime: {x: 0.15079564, y: 0.15864849}
+  trunkFirstBranchTime: 0.143
+  branch: {fileID: 1771685345684789105, guid: 36370e171081bba4da824b32cffadcb6, type: 3}
+  branchGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.0046539307
+      inSlope: 10.590893
+      outSlope: 10.590893
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.06331005
+    - serializedVersion: 3
+      time: 0.10628605
+      value: 0.44375217
+      inSlope: 1.6717678
+      outSlope: 1.6717678
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.063355476
+    - serializedVersion: 3
+      time: 1.0013041
+      value: 1.0053803
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  twigGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.621761
+      outSlope: 1.621761
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.056076024
+    - serializedVersion: 3
+      time: 0.99731445
+      value: 0.49069595
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  branchXRotation: {x: 25.025793, y: 44.974205}
+  branchLeafDeltaTime: 0.235
+  branchLeafDeathTime: {x: 0.756148, y: 0.8884067}
+  branchTwigDeltaTime: 0.246
+  branchFirstFruitClusterDeltaTime: {x: 0.1, y: 0.18165788}
+  branchFruitClusterDeltaTime: {x: 0.18558612, y: 0.36746058}
+  twigXRotation: {x: 0, y: 0}
+  twigYRotation: {x: 20.8054, y: 30.805405}
+  twigDelay: {x: 0, y: 0.010000002}
+  leaf: {fileID: 5807655340210807423, guid: 767fc0b93efd72f4da51ebcdd48f7ef8, type: 3}
+  leafLow: {fileID: 5807655340210807423, guid: 951c7fc98fa7b5148b17959394281396, type: 3}
+  treeLeafGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 1.1732236
+      outSlope: 1.1732236
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.05946602
+    - serializedVersion: 3
+      time: 1
+      value: 0.83333206
+      inSlope: 0.11592088
+      outSlope: 0.11592088
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11656445
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  leafGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 14.598087
+      outSlope: 14.598087
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.045648985
+    - serializedVersion: 3
+      time: 0.025000118
+      value: 0.90392613
+      inSlope: 0.39501506
+      outSlope: 0.39501506
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.32379773
+      outWeight: 0.09180244
+    - serializedVersion: 3
+      time: 0.99947405
+      value: 1.0024835
+      inSlope: 0.0330525
+      outSlope: 0.0330525
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08011319
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  branchLeafGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.8296828
+      outSlope: 2.8296828
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.043689325
+    - serializedVersion: 3
+      time: 0.99947405
+      value: 1.0024835
+      inSlope: 0.0330525
+      outSlope: 0.0330525
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08011319
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  leafMaxXRotation: 20
+  leafMaxZRotation: 45
+  leafScale: {x: 0.7, y: 1.1}
+  leafColorTime: 0.102
+  leafColorAge:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.76862746, b: 0.3647059, a: 1}
+    key1: {r: 0.4627451, g: 0.9019608, b: 0.32941177, a: 1}
+    key2: {r: 1, g: 1, b: 1, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 32768
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  leafColorAgeAffMultFactor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0012130737
+      value: 0.171
+      inSlope: 0.033586197
+      outSlope: 0.033586197
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13988577
+    - serializedVersion: 3
+      time: 0.4969317
+      value: 0.3737641
+      inSlope: 0.014146933
+      outSlope: 0.014146933
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19834134
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.689738
+      value: 0.12604979
+      inSlope: -1.4412398
+      outSlope: -1.4412398
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.04857769
+      outSlope: -0.04857769
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14370318
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flower: {fileID: 1077736026575909207, guid: 082447f0a6fbde24b809e499660ab04a, type: 3}
+  fruit: {fileID: 4669366967644313998, guid: b8412a512f739a5408cbf5d71720f881, type: 3}
+  flowerLow: {fileID: 1077736026575909207, guid: 082447f0a6fbde24b809e499660ab04a,
+    type: 3}
+  fruitLow: {fileID: 4669366967644313998, guid: 89d46d29a7ffffe4d92daed0914c03c1,
+    type: 3}
+  fruitCluster: {fileID: 8827662560852641342, guid: 174054b3c28eff24ea70526cafe18982,
+    type: 3}
+  flowerGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fruitGrowth:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.37103233
+      value: 0.9948585
+      inSlope: 0.00912626
+      outSlope: 0.00912626
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.08541766
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fruitColors:
+    serializedVersion: 2
+    key0: {r: 0.23428811, g: 0.601, b: 0.17826276, a: 1}
+    key1: {r: 0.2702017, g: 0.699, b: 0.19971432, a: 1}
+    key2: {r: 0.92300004, g: 0.44792646, b: 0.117637224, a: 0}
+    key3: {r: 0.699, g: 0.029535212, b: 0, a: 0}
+    key4: {r: 0.5, g: 0, b: 0.14285707, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 16191
+    ctime2: 46646
+    ctime3: 58982
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  flowerGrowthTime: 0.05
+  fruitGrowthTime: 0.13
+  fruitGrowthStartTime: 0.77
