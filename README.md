@@ -1,24 +1,34 @@
 # AR-App-zu-Kosmos-Kaffee
 
+## Table of Contents
+
+- [Description](#Description)  
+- [Technical Documentation](#Technical-Documentation)  
+- [Installing / Getting started](#installing--getting-started)  
+- [Credits](#Credits) 
+- [Licensing](#Licensing)  
+
 ## Description
+
+For the exhibition "Kosmos Kaffee" at Deutsches Museum, Munich, this mobile application was developed to explore the didactic potential of Augmented Reality. The AR app refers to the biological component of coffee cultivation. Users regulate the water balance and the sun in order to best fulfill the needs of the plant. 
 
 This app was developed by Fluxguide as part of the project museum4punkt0 - Digital Strategies for the Museum of the Future, sub-project Rethinking Visitor Journeys. Further information: www.museum4punkt0.de/en/.
 
 The project museum4punkt0 is funded by the Federal Government Commissioner for Culture and the Media in accordance with a resolution issued by the German Bundestag (Parliament of the Federal Republic of Germany).
 
-UX, Design & Development by [Fluxguide Ausstellungssysteme](https://www.fluxguide.com/)
 
-3D Art by [Lost In The Garden](http://lostinthegarden.com/) (3D Art Creation)
 
 ## Technical Documentation
 
-This project uses ARFoundation, an Unity package which allows working with augmented reality in in a multi-platform (Android & iOS) way within Unity. 
+This project uses ARFoundation, an Unity package which allows working with Augmented Reality in in a multi-platform (Android & iOS) way within Unity.
+Not all iOS and Android devices are supporting ARFoundation. A list of supported devices can be found here:
+* https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html
+* https://developers.google.com/ar/discover/supported-devices
 
 Further information: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.2/manual/index.html.
 
 The Application uses one paid Plugins: 
 * Procedural UI Image for accurate UI visualizations https://assetstore.unity.com/packages/tools/gui/procedural-ui-image-52200
-
 
 
 ## Installing / Getting Started 
@@ -32,6 +42,12 @@ The Application uses one paid Plugins:
 4. Select a Build-Target (must be Android or iOS) in File->Build Settings
 
 5. Build and Run. 
+
+## Credits
+
+UX, Design & Development by [Fluxguide Ausstellungssysteme](https://www.fluxguide.com/)
+
+3D Art by [Lost In The Garden](http://lostinthegarden.com/) (3D Art Creation)
 
 ## License
 
