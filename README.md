@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-- [Description](#Description)  
-- [Technical Documentation](#Technical-Documentation)  
-- [Installing / Getting started](#installing--getting-started)  
-- [Credits](#Credits) 
-- [Licensing](#Licensing)  
+- [Description](## Description)  
+- [Technical Documentation](## Technical-Documentation)  
+- [Installing / Getting started](## installing--getting-started)  
+- [Credits](## Credits) 
+- [Licensing](## Licensing)  
 
 ## Description
 
