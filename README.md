@@ -24,6 +24,7 @@ This project uses ARFoundation, an Unity package which allows working with Augme
 Not all iOS and Android devices are supporting ARFoundation. A list of supported devices can be found here:
 * https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html
 * https://developers.google.com/ar/discover/supported-devices
+* https://www.apple.com/de/augmented-reality/
 
 Further information: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@2.2/manual/index.html.
 
