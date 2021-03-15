@@ -6,7 +6,7 @@
 - [Technical Documentation](#Technical-Documentation)  
 - [Installing / Getting started](#installing--getting-started)  
 - [Credits](#Credits) 
-- [Licensing](#Licensing)  
+- [License](#License)  
 
 ## Description
 
