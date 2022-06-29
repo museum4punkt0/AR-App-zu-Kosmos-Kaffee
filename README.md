@@ -52,6 +52,8 @@ UX, Design & Development by [Fluxguide Ausstellungssysteme](https://www.fluxguid
 
 Concept by Deutsches Museum and [Fluxguide Ausstellungssysteme](https://www.fluxguide.com/)
 
+Code and documentation in this repository have been reviewed by TICE Software UG (haftungsbeschränkt) (https://tice.software/de/).
+
 ## License
 
 MIT license
